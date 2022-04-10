@@ -3440,10 +3440,16 @@ tbody tr td:last-child {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  margin-left: 150px;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  
+}
+@media(max-width:991px){
+  .header-top-list {
+    justify-content: center;
+  }
 }
 .header-top-list li {
   margin-left: 35px;
@@ -3549,11 +3555,10 @@ tbody tr td:last-child {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: ;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-}
+  }
 .header-widget-group .header-widget {
   margin-left: 20px;
 }
@@ -3584,6 +3589,7 @@ tbody tr td:last-child {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-left: 800px;
 }
 .header-widget i {
   width: 40px;
@@ -4672,7 +4678,7 @@ tbody tr td:last-child {
 .mobile-menu button sup {
   position: absolute;
   top: -5px;
-  left: 75%;
+  left: 35%;
   width: 24px;
   height: 24px;
   font-size: 12px;
@@ -4688,6 +4694,7 @@ tbody tr td:last-child {
 }
 .mobile-menu a .fas fa-shopping-basket,
 .mobile-menu button .fas fa-shopping-basket {
+
   font-size: 18px;
 }
 @media (max-width: 991px) {
@@ -5251,10 +5258,12 @@ tbody tr td:last-child {
   padding-top: 95px;
 }
 .footer-widget {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 100%;
-  grid-template-columns: 100%;
+  /* display: -ms-grid;
+  display: grid; */
+  /* -ms-grid-columns: 100%;
+  grid-template-columns: 100%; */
+
+  justify-content: space-between;
 }
 .footer-logo {
   margin-bottom: 25px;
@@ -5306,9 +5315,9 @@ tbody tr td:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
+  -webkit-box-align:center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items:center;
   margin-bottom: 18px;
 }
 .footer-contact li:last-child {
