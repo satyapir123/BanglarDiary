@@ -3710,6 +3710,7 @@ tbody tr td:last-child {
 .header-media-group a img {
   width: auto;
   height: 45px;
+
 }
 .header-user img,
 .header-src img {
@@ -5919,7 +5920,7 @@ tbody tr td:last-child {
 }
 .single-banner {
   background-size: cover !important;
-  padding: 100px 0px;
+  padding: 150px 0px;
   text-align: center;
   position: relative;
   z-index: 1;
