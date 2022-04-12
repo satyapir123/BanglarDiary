@@ -3440,7 +3440,6 @@ tbody tr td:last-child {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  margin-left: 150px;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
