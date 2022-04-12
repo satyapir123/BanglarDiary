@@ -4667,7 +4667,7 @@ tbody tr td:last-child {
   margin-bottom: 5px;
   color: var(--text);
   text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
-}
+  }
 .mobile-menu a span,
 .mobile-menu button span {
   font-size: 10px;
