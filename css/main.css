@@ -3449,6 +3449,7 @@ tbody tr td:last-child {
 @media(max-width:991px){
   .header-top-list {
     justify-content: center;
+    margin-left: 65%;
   }
 }
 .header-top-list li {
@@ -4673,6 +4674,7 @@ tbody tr td:last-child {
   line-height: 12px;
   color: var(--text);
   text-transform: uppercase;
+  margin-right: 940%;
 }
 .mobile-menu a sup,
 .mobile-menu button sup {
