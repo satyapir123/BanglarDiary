@@ -4643,7 +4643,7 @@ tbody tr td:last-child {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 80px;
+  width: 800px;
   padding: 8px 0px;
   border-radius: 8px;
   position: relative;
@@ -4666,19 +4666,20 @@ tbody tr td:last-child {
   margin-bottom: 5px;
   color: var(--text);
   text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
-}
+  }
 .mobile-menu a span,
 .mobile-menu button span {
   font-size: 10px;
   line-height: 12px;
   color: var(--text);
   text-transform: uppercase;
+  margin-right: 940%;
 }
 .mobile-menu a sup,
 .mobile-menu button sup {
   position: absolute;
-  top: -5px;
-  left: 35%;
+  top: -10px;
+  left: 51%;
   width: 24px;
   height: 24px;
   font-size: 12px;
