@@ -1,3 +1,4 @@
+
 .user-form-part {
   padding-top: 30px;
 }
@@ -194,6 +195,6 @@
   }
 }
 .user-form-group {
-    display: flex;
+    display: block;
     align-items: center;
 }
